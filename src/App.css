@@ -1,5 +1,5 @@
 #root {
-  max-width: 580px;
+  max-width: 480px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -97,10 +97,12 @@ body{
   border-radius: 12px;
   padding: 24px;
   gap: 24px;
+  justify-content: center;
+  align-items: center;
 }
 
 .sprite-container img{
-   width: 120px;
+   width: 180px;
 }
 
 .info-container{
@@ -161,4 +163,36 @@ body{
 .type-poison{
     background-color: purple;
     color: #fff;
+}
+
+.type-psychic{
+  background-color: violet;
+  color: #fff;
+}
+
+.type-ground{
+  background-color: brown;
+}
+
+.type-rock{
+  background-color: burlywood;
+  color: #151518;
+}
+
+.type-fighting{
+  background-color: chocolate;
+}
+
+.type-ice{
+  background-color: teal;
+  color: #fff;
+}
+
+.type-fairy{
+  background-color: palevioletred;
+}
+
+.type-electric{
+  background-color: yellow;
+  color: #151518;
 }

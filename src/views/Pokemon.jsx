@@ -13,7 +13,7 @@ export const Pokemon = () => {
     const getPokemon = async () => {
 
         try{
-            const response = await fetch('https://pokeapi.co/api/v2/pokemon/');
+            const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=1017');
             if(response.ok){
                 const data = await response.json();
                 setPokemonList(data.results);
@@ -57,7 +57,7 @@ export const Pokemon = () => {
 
                     {pokemonList.map((p, index) => (
                             
-                            <option key={index} value={p.name}>{p.name}</option>
+                            <option key={index} value={p.name}>{`${index} - ${p.name}`}</option>
 
                         ))}
 

@@ -8,7 +8,7 @@ export const PokemonDetail = () => {
 
     const {nombrepokemon} = useParams();
     const [pokemonStats, setPokemonStats] = useState([]);
-    const {pokemon, setPokemon} = useContext(PokemonContext);
+    const {pokemon} = useContext(PokemonContext);
 
     const getPokemonStats = async (selectedPoke) => {
         try {
