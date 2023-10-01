@@ -1,0 +1,164 @@
+#root {
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  font-family: 'Pixelify Sans', cursive;
+  background-color: #151518;
+  color: #fff;
+}
+
+.main-menu{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+.main-menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-menu a.active{
+    color: greenyellow;
+}
+
+.red-walking{
+  width: 120px;
+  margin: 32px 0;
+}
+
+.btn-start{
+  display: block;
+  text-decoration: none;
+  background-color: transparent;
+  color: greenyellow;
+  border: 1px solid greenyellow;
+  padding: 8px 24px;
+  border-radius: 100px;
+  width: 120px;
+  margin: 0 auto;
+  transition: .3s;
+}
+
+.btn-start:hover{
+    background-color: greenyellow;
+    color: #151518;
+}
+
+.pokemon-submit{
+  padding: 12px 24px;
+  font-family: 'Pixelify Sans', arial;
+  border-radius: 0 8px 8px 0;
+  border: 0;
+  cursor: pointer;
+  background-color: rgba(255,255,255,.2);
+  font-size: 16px;
+  color: #fff;
+  transition: .2s;
+}
+
+.pokemon-submit:hover{
+  background-color: rgba(255,255,255, .3);
+}
+
+.pokemon-selector{
+    padding: 12px 16px;
+    font-family: 'Pixelify Sans', arial;
+    border-radius: 8px 0 0 8px;
+    border: 0;
+    background-color: rgba(255,255,255,.1);
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 300px;
+}
+
+.pokemon-selector option{
+  border-radius: 8px;
+  font-family: 'Pixelify Sans', arial;
+  font-size: 16px;
+  text-transform: capitalize;
+  background-color: #151518;
+  color: #fff;
+}
+
+.card-pokemon-name{
+  text-transform: capitalize;
+}
+
+.pokecard{
+  display: flex;
+  border:1px solid #eee;
+  border-radius: 12px;
+  padding: 24px;
+  gap: 24px;
+}
+
+.sprite-container img{
+   width: 120px;
+}
+
+.info-container{
+  text-align: left;
+}
+
+
+.type-list{
+  display: flex;
+  list-style: none;
+  gap: 8px;
+  padding: 0;
+  margin: 0 0 16px 0;
+}
+
+.type-list li{
+  border-radius: 100px;
+  padding: 2px 12px;
+  text-transform: uppercase;
+}
+
+.class-list{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.type-water{
+  background-color: aqua;
+  color: #151518;
+}
+
+.type-fire{
+  background-color: crimson;
+  color: #fff;
+}
+
+.type-grass{
+  background-color: greenyellow;
+  color: #151518;
+}
+
+.type-flying{
+  background-color: rgb(198, 238, 238);
+  color: #151518;
+}
+
+.type-bug{
+  background-color: darkolivegreen;
+  color: #fff;
+}
+
+.type-normal{
+  background-color: #eee;
+  color: #151518;
+}
+
+.type-poison{
+    background-color: purple;
+    color: #fff;
+}
